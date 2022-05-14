@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
     <head>
+        <title>金宏昌銀樓</title>
+        <!--Website Meta-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--import index style-->
         <link href="/css/index.css" rel="stylesheet">
+        <!--import Leaflet-->
+        <script src="/lib/map/leaflet.js"></script>
+        <link href="/lib/map/leaflet.css" rel="stylesheet">
         <!--import uikit-->
         <script src="/js/uikit.min.js"></script>
         <script src="/js/uikit-icons.min.js"></script>
         <link href="/css/uikit.min.css" rel="stylesheet">
         <!--import fontawesome-->
         <link href="/css/fontawesome.min.css" rel="stylesheet">
+        
     </head>
     <body>
-        
-        <nav class="uk-navbar-container" uk-navbar>
-            <div class="uk-navbar-left">
-                <ul class="uk-navbar-nav">
-                    <li class="uk-active">金宏昌銀樓</li>
-                </ul>
-
-            </div>
-            <div class="uk-navbar-right">
-
-            </div>
-        </nav>
-        <div class="uk-section uk-section-default uk-light uk-background-cover" style="background-image: url(img/background-image)">
+        <div uk-sticky>
+            <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a href="#" class="uk-navbar-brand">
+                        <img src="/img/JinHongChang_Banner.png" width="150px" height="50px">
+                    </a>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li><a>關於我們</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>    
+        <div class="uk-section uk-light uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover" style="background-image: url(img/background.jpg)" uk-height-viewport="offset-top: true">
             <div class="uk-container">
-                <div class="uk-tile uk-tile-default">les</div>
+                <div class="uk-grid-column-large uk-grid-row-large " uk-grid>
+                    <div>
+                        <h1>djghuhyccheh</h1>
+                    </div>
+                </div>
             </div> 
-        </div>  
+        </div>
     </body>
 </html>

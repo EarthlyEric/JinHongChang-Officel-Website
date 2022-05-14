@@ -1,8 +1,8 @@
 html {
     scroll-behavior: smooth;
   }
-a{
-    font-size: large;
+h1{
+  font-size: large;
 }
 .circle_button {
     -webkit-border-radius: 100px;
@@ -31,4 +31,18 @@ a{
     -moz-border-radius: 100px;
     border-radius: 100px;
     text-decoration: none;
+ }
+.navbar_item {
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  background-image: linear-gradient(#000000, #000000);
+  background-position: left bottom;
+  background-size: 0 2.5px;
+  background-repeat: no-repeat;
+  transition: background-size 0.1s linear;
+}
+
+ .navbar_item:hover {
+  background-size: 100% 2.5px;
  }

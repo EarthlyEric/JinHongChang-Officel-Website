@@ -4,7 +4,8 @@
         <title>金宏昌銀樓</title>
         <!--Website Meta-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--import index style-->
+        <!--import index-->
+        <script src="/js/index.js"></script>
         <link href="/css/index.css" rel="stylesheet">
         <!--import Leaflet-->
         <script src="/lib/map/leaflet.js"></script>
@@ -22,7 +23,7 @@
             <nav class="uk-navbar-container" uk-navbar>
                 <div class="uk-navbar-left">
                     <a href="#" class="uk-navbar-brand">
-                        <img src="/img/JinHongChang_Banner.png" width="150px" height="50px">
+                        <img src="/img/JinHongChang_Banner.png" width="150px" height="50px" alt="">
                     </a>
                 </div>
                 <div class="uk-navbar-right">
@@ -32,11 +33,55 @@
                 </div>
             </nav>
         </div>    
-        <div class="uk-section uk-light uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover" style="background-image: url(img/background.jpg)" uk-height-viewport="offset-top: true">
+        <div id="home" class="uk-section uk-light uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover" style="background-image: url(img/background.jpg)" uk-height-viewport="offset-top: true">
             <div class="uk-container">
-                <div class="uk-grid-column-large uk-grid-row-large " uk-grid>
+                <div class="uk-grid-column-large uk-grid-row-large" uk-grid>
                     <div>
-                        <h1>djghuhyccheh</h1>
+                        <h1>歡迎來到金宏昌銀樓官方網站</h1>
+                    </div>
+                </div>
+                <div class="uk-grid-column-large uk-grid-row-large uk-flex uk-flex-center" uk-grid>
+                    <div>
+                        <a href="#next" class="circle_button" >
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+        <div id="next" class="uk-section uk-light uk-height-medium" uk-height-viewport="offset-top: true">
+            <div class="uk-container">
+                <div uk-scrollspy="cls:uk-animation-fade">
+                    <div class="uk-animation-toggle uk-card uk-card-default uk-card-hover uk-child-width-1-2 uk-animation-fade" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container">
+                            <img src="/img/background.jpg" alt="" uk-cover>
+                            <canvas width="600" height="400"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">???</h3>
+                                <p>我是誰.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div id="next" class="uk-section uk-light uk-height-medium" uk-height-viewport="offset-top: true">
+            <div class="uk-container">
+                <div uk-scrollspy="cls:uk-animation-fade">
+                    <div class="uk-card uk-card-default uk-card-hover uk-child-width-1-2 uk-margin" uk-grid>
+                        <div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">???</h3>
+                                <p>我是誰.</p>
+                            </div>
+                        </div>
+                        <div class="uk-card-media-right uk-cover-container">
+                            <img src="/img/background.jpg" alt="" uk-cover>
+                            <canvas width="600" height="400"></canvas>
+                        </div>
                     </div>
                 </div>
             </div> 

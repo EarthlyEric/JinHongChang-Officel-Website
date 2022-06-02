@@ -1,0 +1,11 @@
+@font-face {
+    /*仿宋*/
+      font-family: 'cwTeXFangSong';
+      font-style: normal;
+      font-weight: 500;
+      src: url(/font/cwTeXFangSong-zhonly.eot);
+      src: url(/font/cwTeXFangSong-zhonly.eot?#iefix) format('embedded-opentype'),
+           url(/font/cwTeXFangSong-zhonly.woff2) format('woff2'),
+           url(/font/cwTeXFangSong-zhonly.woff) format('woff'),
+           url(/font/cwTeXFangSong-zhonly.ttf) format('truetype');
+    }

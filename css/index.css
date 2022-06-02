@@ -34,6 +34,25 @@ html {
     border-radius: 100px;
     text-decoration: none;
  }
+ .circle_button_social {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  height: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+  font-family: Brush Script MT;
+  width: 12px;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid #FFFFFF 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
 .navbar_item {
   color: #000000;
   font-size: 18px;

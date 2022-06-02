@@ -15,7 +15,7 @@
         <script src="/js/uikit-icons.min.js"></script>
         <link href="/css/uikit.min.css" rel="stylesheet">
         <!--import fontawesome-->
-        <link href="/css/fontawesome.min.css" rel="stylesheet">        
+        <link href="/css/fontawesome.min.css" rel="stylesheet">   
     </head>
     <body>
         <div uk-sticky>
@@ -36,7 +36,7 @@
                 </div>
             </nav>
         </div>    
-        <div id="home" class="uk-section uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover" style="background-image: url(img/background.png)" uk-height-viewport="offset-top: true">
+        <div id="home" class="uk-section uk-light uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover" style="background-image: url(img/background.png)" uk-height-viewport="offset-top: true">
             <div class="uk-container">
                 <div class="uk-grid-column-large uk-grid-row-large" uk-grid>
                     <div>
@@ -54,7 +54,7 @@
             </div> 
         </div>
         <section id="our_service">
-            <div class="uk-section uk-dark uk-height-medium uk-margin" uk-height-viewport="offset-top: true">
+            <div class="uk-section uk-section-muted uk-dark uk-height-medium uk-margin" uk-height-viewport="offset-top: true">
                 <div class="uk-container">
                     <h1 class="uk-text-center">我們的服務</h1>
                     <div uk-scrollspy="cls:uk-animation-fade; target: .uk-card; delay: 500; repeat: true"">
@@ -86,23 +86,39 @@
                 </div> 
             </div>
         </section>
-        <div id="next" class="uk-section uk-dark uk-height-medium uk-margin" uk-height-viewport="offset-top: true">
-            <div class="uk-container">
-                <div uk-scrollspy="cls:uk-animation-fade">
-                    <div class="uk-card uk-card-default uk-card-hover uk-child-width-1-2@m uk-margin" uk-grid>
-                        <div>
-                            <div class="uk-card-body">
-                                <h2 class="uk-card-title">我們的</h2>
-                                <p>我們的</p>
+        <section>
+            <div class="uk-section uk-section-muted uk-dark uk-height-medium uk-margin" uk-height-viewport="offset-top: true">
+                <div class="uk-container">
+                    <div uk-scrollspy="cls:uk-animation-fade">
+                        <div class="uk-card uk-card-default uk-card-hover uk-child-width-1-2@m uk-margin" uk-grid>
+                            <div>
+                                <div class="uk-card-body">
+                                    <h2 class="uk-card-title">我們的</h2>
+                                    <p>我們的</p>
+                                </div>
+                            </div>
+                            <div class="uk-card-media-right uk-cover-container">
+                                <img src="/img/background.png" alt="" uk-cover>
+                                <canvas width="600" height="400"></canvas>
                             </div>
                         </div>
-                        <div class="uk-card-media-right uk-cover-container">
-                            <img src="/img/background.png" alt="" uk-cover>
-                            <canvas width="600" height="400"></canvas>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <footer>
+            <div class="uk-section uk-light uk-section-secondary uk-dark uk-height-medium">
+                <div class="uk-container">
+                    <div class="uk-child-width-1-1@m" uk-grid>
+                        <div>
+                            <a href="tel:03-3668365" class="circle_button_social"><i class="fas fa-phone-alt"></i></a>
+                        </div>
+                        <div>
+                            <p>2022 © JinHongChang & Reload Dev Inc.</p>
                         </div>
                     </div>
                 </div>
-            </div> 
-        </div>
+            </div>
+        </footer>
     </body>
 </html>
